@@ -1,0 +1,19 @@
+{
+  "name": "toeic-hanal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "토익한알 로컬 프런트엔드 + OpenAI 백엔드",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "openai": "^7.45.1"
+  }
+}

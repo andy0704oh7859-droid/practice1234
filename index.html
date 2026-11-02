@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fbf8f1" />
+  <title>토익한알</title>
+  <link rel="preload" as="image" href="assets/hanali/hanali_default.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="app-header">
+      <span class="brand">
+        <span class="brand-pill" aria-hidden="true"></span>
+        <span class="brand-name">토익한알</span>
+      </span>
+    </header>
+
+    <main class="app-main" id="main" tabindex="-1" aria-live="polite">
+      <!-- 화면은 script.js 에서 렌더링됩니다 -->
+    </main>
+
+    <nav class="bottom-nav" aria-label="주요 메뉴">
+      <button type="button" class="nav-item" data-view="home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.2 12 4l8 7.2V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg>
+        <span>홈</span>
+      </button>
+      <button type="button" class="nav-item" data-view="vocab">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h10.5a3 3 0 0 1 3 3V19.5H8a3 3 0 0 1-3-3z"/><path d="M5 16.5a3 3 0 0 1 3-3h10.5"/></svg>
+        <span>단어</span>
+      </button>
+      <button type="button" class="nav-item" data-view="part5">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="3"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+        <span>Part 5</span>
+      </button>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
